@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "housewives",
+    "alias": "https://housewives.soniakahlon6344.now.sh",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }
